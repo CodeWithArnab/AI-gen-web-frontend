@@ -56,7 +56,7 @@ const Home = () => {
     return (
         <section className='max-w-7xl mx-auto'>
             <div>
-                <h1 className='font-extrabold text-[#222328] text-[32px]'>
+                <h1 className='font-extrabold  text-[32px] bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>
                     The Community Showcase
                 </h1>
                 <p className='mt-2 text-[#666e75] text-[16px] max-w-[500px]'>

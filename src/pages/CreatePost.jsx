@@ -72,9 +72,9 @@ const CreatePost = () => {
   }
 
   return (
-    <section className='max-w-7xl mx-auto'>
+    <section className='max-w-7xl mx-auto '>
       <div>
-            <h1 className='font-extrabold text-[#222328] text-[32px]'>
+            <h1 className='font-extrabold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text text-[32px] dark:from-pink-500 dark:to-yellow-500'>
                 Create
             </h1>
             <p className='mt-2 text-[#666e75] text-[16px] max-w-[500px]'>
@@ -103,11 +103,11 @@ const CreatePost = () => {
             handleSurpiseMe={handleSurpiseMe}
 
             />
-            <div className='relative bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-64 p-3 h-64 flex justify-center items-center'>
+            <div className='relative bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-64 p-3 h-64 flex justify-center items-center dark:invert dark:border-blue-600'>
             {form.photo?(
               <img src={form.photo} alt={form.prompt} className='w-full object-contain' />
             ):
-              <img src={preview} alt="preview" className='w-9/12 h-9/12 object-contain opacity-40' />
+              <img src={preview} alt="preview" className='w-9/12 h-9/12 object-contain opacity-40 ' />
             }
             {generatingImg && (
               <div className='absolute inset-0 z-0 flex justify-center items-center bg-[rgba(0,0,0,0.5)] rounded-lg'> 

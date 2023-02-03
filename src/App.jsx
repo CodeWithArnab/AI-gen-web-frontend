@@ -5,7 +5,7 @@ import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { Home,CreatePost } from './pages'
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(true)
+  const [darkMode, setDarkMode] = useState(false)
   return (
     <BrowserRouter> 
     <div className={darkMode?"dark":""}>
